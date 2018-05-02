@@ -92,7 +92,7 @@ namespace OnlineBookStore
                 MessageBox.Show("You have no internet connection. Application will be closed now.", "Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
             }
-            MessageBox.Show("Wellcome to our Online Book Store application. You can simply sign up and use. If you want to login as a root user.You can use our root account. Username:root Password:123","Wellcome", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Welcome to our Online Book Store application. You can simply sign up and use. If you want to login as a root user.You can use our root account. Username:root Password:123","Welcome", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
